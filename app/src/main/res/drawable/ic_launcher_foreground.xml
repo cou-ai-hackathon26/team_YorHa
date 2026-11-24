@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple book + plus mark. 108dp canvas, content kept inside the 72dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="@color/mocha_blue"
+        android:pathData="M36,30h32a4,4 0,0 1,4 4v40a4,4 0,0 1,-4 4H36a4,4 0,0 1,-4 -4V34a4,4 0,0 1,4 -4z" />
+    <path android:fillColor="@color/mocha_base"
+        android:pathData="M49,42h6v8h8v6h-8v8h-6v-8h-8v-6h8z" />
+</vector>

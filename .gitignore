@@ -1,0 +1,28 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/whisper/build/
+/llama/build/
+/whisper/.cxx/
+/llama/.cxx/
+/app/.cxx/
+/captures
+.externalNativeBuild
+.cxx/
+*.apk
+*.aab
+# Model weights never go into git (GitHub rejects files >100 MB). See README "Model files".
+*.gguf
+*.bin
+models/
+
+# Signing keys never go into git (use GitHub Actions secrets)
+*.jks
+*.keystore
+
+# Firebase config for the family flavor (project-specific; pass via CI secrets instead)
+google-services.json

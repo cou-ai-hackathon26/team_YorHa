@@ -1,0 +1,1 @@
+-keep class com.medidiary.whisper.** { native <methods>; *; }

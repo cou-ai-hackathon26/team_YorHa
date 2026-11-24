@@ -1,0 +1,11 @@
+# Keep scripts runnable on Linux/macOS/CI even when committed from Windows.
+* text=auto
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+# Binary assets
+*.jar binary
+*.png binary
+*.gguf binary
+*.bin binary

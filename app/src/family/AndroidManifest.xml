@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Family build: network is used ONLY for opt-in, end-to-end-encrypted sync of records the
+         user verified. Inference stays on-device; audio and transcripts never leave the phone. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <!-- Invite links / QR codes: medidiary://join?d=…&k=…&n=… -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="medidiary" android:host="join" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

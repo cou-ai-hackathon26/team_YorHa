@@ -1,0 +1,37 @@
+rules_version = '2';
+
+// MediDiary family sync (Task 1). The server only stores ciphertext; these rules keep
+// strangers from reading it, listing diaries, or vandalising records.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /diaries/{diaryId} {
+      function signedIn() { return request.auth != null; }
+      function isMember() {
+        return signedIn() &&
+          exists(/databases/$(database)/documents/diaries/$(diaryId)/members/$(request.auth.uid));
+      }
+
+      // Joining: a phone adds ITSELF. Knowing the random diary id (from the invite) is the
+      // capability; the AES key in the same invite is what makes the content readable.
+      match /members/{uid} {
+        allow get: if signedIn() && request.auth.uid == uid;
+        allow list: if isMember();
+        allow create, update: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['j']);
+        allow delete: if signedIn() && request.auth.uid == uid;
+      }
+
+      match /records/{recordId} {
+        allow read: if isMember();
+        allow create, update: if isMember()
+          && request.resource.data.keys().hasOnly(['v', 'u', 'dev', 'c'])
+          && request.resource.data.v == 1
+          && request.resource.data.u is int
+          && request.resource.data.c is string
+          && request.resource.data.c.size() < 20000;
+        allow delete: if false; // deletes are encrypted tombstones, never real deletes
+      }
+    }
+  }
+}

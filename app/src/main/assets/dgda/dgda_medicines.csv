@@ -1,0 +1,81 @@
+id,brand_name,generic_name,dosage_form
+1,Napa,Paracetamol,Tablet
+2,Napa Extra,Paracetamol + Caffeine,Tablet
+3,Napa Extend,Paracetamol,Extended-release tablet
+4,Napa Rapid,Paracetamol,Tablet
+5,Ace,Paracetamol,Tablet
+6,Ace Plus,Paracetamol + Caffeine,Tablet
+10,Seclo,Omeprazole,Capsule
+11,Losectil,Omeprazole,Capsule
+13,Sergel,Esomeprazole,Capsule
+14,Nexum,Esomeprazole,Tablet
+15,Esonix,Esomeprazole,Capsule
+16,Maxpro,Esomeprazole,Tablet
+18,Pantonix,Pantoprazole,Tablet
+20,Finix,Rabeprazole,Tablet
+21,Neoceptin R,Ranitidine,Tablet
+23,Monas,Montelukast,Tablet
+24,Lumona,Montelukast,Tablet
+26,Fexo,Fexofenadine,Tablet
+27,Fenadin,Fexofenadine,Tablet
+28,Telfast,Fexofenadine,Tablet
+29,Alatrol,Cetirizine,Tablet
+30,Histacin,Chlorpheniramine,Tablet
+32,Bizoran,Amlodipine + Olmesartan,Tablet
+33,Amdocal,Amlodipine,Tablet
+34,Camlodin,Amlodipine,Tablet
+35,Osartil,Losartan,Tablet
+36,Angilock,Losartan,Tablet
+37,Concor,Bisoprolol,Tablet
+38,Tenormin,Atenolol,Tablet
+39,Atova,Atorvastatin,Tablet
+41,Comet,Metformin,Tablet
+42,Amaryl,Glimepiride,Tablet
+43,Trajenta,Linagliptin,Tablet
+44,Mixtard,Insulin Human (Biphasic),Injection
+45,Insulatard,Insulin Human (Isophane),Injection
+46,Lantus,Insulin Glargine,Injection
+47,NovoRapid,Insulin Aspart,Injection
+48,Ecosprin,Aspirin,Tablet
+49,Plavix,Clopidogrel,Tablet
+50,Zimax,Azithromycin,Tablet
+51,Azithrocin,Azithromycin,Tablet
+52,Tridosil,Azithromycin,Tablet
+53,Cef-3,Cefixime,Capsule
+54,Triocim,Cefixime,Capsule
+55,Moxacil,Amoxicillin,Capsule
+56,Tycil,Amoxicillin,Capsule
+57,Fimoxyl,Amoxicillin,Capsule
+58,Ciprocin,Ciprofloxacin,Tablet
+59,Neofloxin,Ciprofloxacin,Tablet
+60,Flagyl,Metronidazole,Tablet
+61,Filmet,Metronidazole,Tablet
+62,Amodis,Metronidazole,Tablet
+63,Motilium,Domperidone,Tablet
+64,Omidon,Domperidone,Tablet
+65,Entacyd Plus,Aluminium Hydroxide + Magnesium Hydroxide + Simethicone,Suspension
+66,Orsaline-N,Oral Rehydration Salts,Sachet
+67,Rolac,Ketorolac,Tablet
+68,Clofenac,Diclofenac,Tablet
+69,Naprosyn,Naproxen,Tablet
+70,Calbo-D,Calcium Carbonate + Vitamin D3,Tablet
+71,Neuro-B,Vitamin B1 + B6 + B12,Tablet
+72,Bextram Gold,Multivitamin + Multimineral,Tablet
+73,Rivotril,Clonazepam,Tablet
+74,Disopan,Clonazepam,Tablet
+75,Epitra,Clonazepam,Tablet
+76,Sedil,Diazepam,Tablet
+77,Neurontin,Gabapentin,Capsule
+78,Ventolin,Salbutamol,Inhaler
+79,Sultolin,Salbutamol,Tablet
+80,Azmasol,Salbutamol,Inhaler
+81,Adovas,Adhatoda Vasica,Syrup
+82,Thyrox,Levothyroxine,Tablet
+83,Eltroxin,Levothyroxine,Tablet
+84,Glucophage,Metformin,Tablet
+85,Nexium,Esomeprazole,Tablet
+86,Losec,Omeprazole,Capsule
+87,Brufen,Ibuprofen,Tablet
+88,Ponstan,Mefenamic Acid,Capsule
+89,Zyrtec,Cetirizine,Tablet
+90,Lipitor,Atorvastatin,Tablet

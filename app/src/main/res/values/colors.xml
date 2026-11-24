@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catppuccin Mocha (subset used by XML resources; Compose uses ui/theme/Theme.kt). -->
+    <color name="mocha_base">#FF1E1E2E</color>
+    <color name="mocha_mantle">#FF181825</color>
+    <color name="mocha_blue">#FF89B4FA</color>
+    <color name="mocha_mauve">#FFCBA6F7</color>
+    <color name="mocha_text">#FFCDD6F4</color>
+</resources>
