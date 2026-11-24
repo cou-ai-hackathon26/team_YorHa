@@ -149,7 +149,7 @@ dependencies {
     "familyImplementation"(libs.kotlinx.coroutines.play.services)
     "familyImplementation"(libs.zxing.core)
     "familyImplementation"(libs.zxing.android.embedded)
-    "familyImplementation"(libs.androidx.fragment.ktx)
+    "familyImplementation"(libs.androidx.fragment.ktx) // FIX: newer Fragment for the family build
 
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
